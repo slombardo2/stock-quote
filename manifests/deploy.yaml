@@ -38,7 +38,7 @@ spec:
 #       image: registry.ng.bluemix.net/stock_trader/stock-quote:latest # IBM Kubernetes Service
 #       Note: this manifests/deploy.yaml will be used when we want to deploy this directly using kubectl or a helm chart. 
 #             Microclimate uses the Charts folder so we can actually have both options
-        image: ibmstocktrader/stock-quote:latest # DockerHub
+        image: slombardo2/stock-quote:latest # DockerHub
         env:
           - name: REDIS_URL
             valueFrom:
