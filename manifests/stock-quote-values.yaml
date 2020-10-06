@@ -18,7 +18,7 @@
 ################################################################################################
 
 image:
-  repository: ibmstocktrader/stock-quote  # Docker Hub
+  repository: slombardo2/stock-quote  # Docker Hub
   #repository: mycluster.icp:8500/stock-trader/stock-quote        # IBM Cloud Private
   #repository: registry.ng.bluemix.net/stock_trader/stock-quote   # IBM Container Service
   tag: latest
